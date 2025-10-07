@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans Mono", monospace;
+  background-color: #181825;
+  height: 1000vh;
+
+}
+
+.navbar-nav {
+  position: relative;
+  overflow: hidden;
+  background-color: #181824;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+
+}
+
+.navbar-nav a {
+  float: left;
+  color: #dddddd;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.navbar-nav a:hover {
+  background-color: #71758A;
+}
+
+.navbar-nav a:active {
+  background-color: #D4A9F1;
+}
+
+h1 {
+  color: #dddddd;
+  text-align: center;
+  justify-content: center;
+  stroke: #555555;
+  stroke-width: 20px;
+
+}
+
+#home {
+  height: 100vh;
+}
+
+#about {
+  height: 100vh;
+
+}
+
+#contact {
+  height: 100vh;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
