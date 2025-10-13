@@ -1,1 +1,1 @@
-Hallo this is my second personal website, well actually third haha.
+Hello this is my second personal website, well actually it's third web hahaha.
