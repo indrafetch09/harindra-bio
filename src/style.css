@@ -1,7 +1,10 @@
 :root {
   --dark-bg: #1e192f;
   --light-text: #dddddd;
+  --accent-text: #8CAAEE;
+  --border: ;
   --accent-blue: #8CAAEE;
+  --accent-dark:  #181824;
 }
 
 html {
@@ -11,7 +14,7 @@ html {
 body {
   margin: 0;
   font-family: "Noto Sans Mono", monospace;
-  background-color: #181825;
+  background-color: var(--accent-dark);
   min-height: 100vh;
   justify-content: center;
   align-items: center;
@@ -22,7 +25,7 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
-  background-color: #181824;
+  background-color: var(--accent-dark);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,7 +76,6 @@ h1 {
   min-height: 100vh;
   padding-top: 30px;
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -96,7 +98,7 @@ img {
   padding: 15px;
   color: var(--light-text);
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .about-me {
@@ -108,7 +110,7 @@ img {
 }
 
 .linked {
-  color: #8CAAEE;
+  color: var(--accent-text);
 }
 
 /* Table style */
@@ -188,7 +190,6 @@ img {
   text-decoration-color: var(--accent-blue);
   font-size: 1.2em;
 }
-
 
 /* --- Styling Footer --- */
 .main-footer {
